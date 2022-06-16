@@ -1,0 +1,22 @@
+
+par(mfrow=c(2,2))
+b1<-boxplot(dataset$Rainfall,main="Rainfall Box Plot",
+        xlab="Rainfall",
+        ylab="Rainfall",
+        col="orange",
+        border="black")
+b2<-boxplot(dataset$Evaporation,main="Evaporation Box Plot",
+        xlab="Evaporation",
+        ylab="Evaporation",
+        col="orange",
+        border="black")
+b3<-boxplot(dataset$WindSpeed9am,
+        xlab="WindSpeed9am",main="WindSpeed9am Box Plot",
+        ylab="WindSpeed9am",
+        col="orange",
+        border="black")
+b4<-boxplot(dataset$WindSpeed3pm,main="WindSpeed3pm Box Plot",
+        xlab="WindSpeed3pm",
+        ylab="WindSpeed3pm",
+        col="orange",
+        border="black")
